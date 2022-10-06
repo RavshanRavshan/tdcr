@@ -1,0 +1,467 @@
+body{
+	font-family: 'Abyssinica SIL', serif;
+}
+ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1174px;
+	list-style: none;
+	margin: auto;
+}
+.aa{
+	text-decoration: none;
+}
+.aa1{
+	text-decoration: none;
+	color: white;
+}
+.img30{
+	width: 100px;
+}
+.aa {
+	position: relative;
+}
+.aa:before{
+    content: '';
+    height: 2px;
+    width: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background: red;
+    transition: all .5s ease;
+}
+.aa:hover:before{
+  width: 100%;
+}
+li{
+	padding: 12px;
+}
+li:first-child{
+	margin-right: auto;
+}
+li:last-child{
+	margin-left: auto;
+	background-color: black;
+	border-radius: 40px;
+}
+li:last-child .aa{
+	color: white;
+	font-size: 14px;
+}
+li .aa{
+	color: black;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.tr{
+	animation: ravshan 8s infinite;
+	width: 400px;
+    margin: 50px;
+}
+@keyframes ravshan{
+      0%{
+      	transform: translateY(0px);
+      }
+      25%{
+      	transform: translateY(20px);
+      	
+      }
+      50%{
+      	transform: translateY(-20px);
+      	
+      }
+      75%{
+      	transform: translateY(20px);
+      
+      }
+      100%{
+      	transform: translateY(0px);
+      	
+      }
+}
+.btn_parent{
+	display: flex;
+	align-items: center;
+}
+.btn_child_1 button{
+	background-color: black;
+	color: white;
+	padding: 7px;
+	border-radius: 5px;
+	width: 120px;
+	margin: 5px;
+}
+.btn_child_2 button{
+	background-color: transparent;
+	border: 0;
+	margin: 5px;
+}
+.home_1{
+	width: 550px;
+}
+.home_1 h1{
+	font-size: 50px;
+	font-weight: 900;
+	font-family: 'Roboto', sans-serif;
+}
+.home_1 p{
+	font-size: 16px;
+	width: 460px;
+}
+.home_1 b{
+	color: #98A2B3;
+}
+.home{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+.img img{
+	width: 50px;
+}
+.img_1 img{
+	width: 65px;
+}
+.project{
+	display: flex;
+	align-items: center;
+	width: 200px;
+	margin: 20px;
+}
+.data_write{
+	width: 200px;
+}
+.row{
+	display: flex;
+	align-items: center;
+}
+.data_img img{
+	width: 100px;
+}
+.data{
+	display: flex;
+	align-items: center;
+	margin: 50px;
+	padding: 7px;
+	border: 1px solid silver;
+	height: 100px;
+}
+.bits{
+	width: 70px!important;
+}
+.s1 h1{
+	text-align: center;
+}
+img{
+	width: 100%;
+}
+.parent1{
+	height: 50vh;
+	width: 1174px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.child1{
+	width: 300px;
+	height: 50vh;
+	margin: 5px;
+	border: 1px solid #8d99ae;
+}
+.img2 {
+	width: 150px;
+	margin-left: 100px;
+}
+.img1{
+	width: 90px;
+	margin-left: 100px;
+}
+.img3{
+	width: 130px;
+	margin-left: 62px;
+}
+.img4{
+	width: 130px;
+	margin-left: 68px;
+}
+.child1 p{
+	color: #8d99ae;
+}
+.s1 h4{
+	color: #38b000;
+}
+.img5{
+	width: 100px;
+	margin-left: 78px;
+}
+.img6{
+	width: 150px;
+	margin-left: 51px;
+}
+.img7{
+	width: 150px;
+    margin-left: 53px;
+}
+.img8{
+	width: 150px;
+	margin-left: 55px;
+}
+.img9{
+	width: 150px;
+	margin-left: 60px;
+}
+.img10{
+	width: 98px;
+	margin-left: 81px;
+}
+.img11{
+	width: 190PX;
+	margin-left: 50px;
+}
+.img12{
+	width: 200px;
+	margin-left: 44px;
+}
+.child2 p{
+	text-align: center;
+}
+.child2 h1{
+	text-align: center;
+}
+.child3{
+	width: 333px;
+	height: 45vh;
+	margin-left: 590px;
+	margin-bottom: 20px;
+	border: 1px solid #8d99ae;
+	border-radius: 10px;
+}
+.child4{
+	у меня не получилось сделать эту часть
+}
+.child5{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.child5  a{
+	text-decoration: none;
+	color: #ff4d6d;
+	background-color: #fec89a;
+	border: 2px solid #fec89a;
+	border-radius: 30px;
+	padding: 15px;
+}
+.child5 a:hover{
+	color: #ff4d6d;
+	background-color: white;
+}
+
+.h4{
+    text-align: center;
+}
+.img14{
+	width: 300px;
+	margin-left: 164px;
+}
+.h5, .p5{
+	margin-left: 250px;
+	font-size: 30px;
+}
+.h5{
+	margin-top: -200px;
+}
+.p5{
+	margin-left: 230px;
+	color: #8d99ae;
+}
+.img15{
+	width: 100px;
+    
+}
+.child60{
+	text-align: center;
+	margin-top: -300px;
+}
+.p6{
+	margin-right: 50px;
+}
+.h6{
+	margin-right: 80px;
+}
+.child70{
+	text-align: center;
+	margin-left: 950px;
+	margin-top: -300px;
+}
+.p7{
+	margin-right: 55px;
+}
+.h7{
+	margin-right: 80px;
+}
+.str{
+	width: 100px;
+	margin-left: 550px;
+	margin-top: -100px;
+}
+.ste{
+	width: 100px;
+	margin-left: 370px;
+	margin-top: -100px;
+}
+.child80{
+	margin-top: 100px;
+	margin-left: 250px;
+}
+.child85{
+	text-align: center;
+	margin-left: 500px;
+	margin-top: -320px;
+}
+.p9{
+	margin-right: 60px;
+}
+.h9{
+	margin-right: 80px;
+}
+.img16{
+	width: 1300px;
+	margin-left: 165px;
+	margin-top: 120px;
+}
+.hhh1{
+	color: white;
+	margin-left: 250px;
+	margin-top: -350px;
+	font-size: 35px;
+}
+.ppp1{
+    color: white;
+	margin-left: 250px;
+	font-size: 25px;
+	color: #8d99ae;	
+}
+p{
+	color: #adb5bd;
+}
+.n1{
+	width: 400px;
+	margin-left: 1000px;
+	margin-top: -250px;
+}
+.h4, .aaa{
+	margin-left: 150px;
+}
+.parent3{
+	flex-wrap: wrap;
+}
+.parent5{
+	display: flex;
+}
+form{
+	background-color: white;
+	margin-left: 250px;
+	padding: 12px;
+	width: 240px;
+	border-radius: 50px;
+}
+
+form input, button{
+	border: 0;
+	background-color: transparent;
+}
+form input:focus{
+	outline: 0;
+	border: 0;
+	box-shadow: 0h;
+}
+.icon{
+	border-radius: 50px;
+	width: 20px;
+	font-size: 20px!important;
+	background-color: green;
+	color: white;
+	padding: 6px;
+	margin-left: 25px;
+}
+.parent1 {
+	margin-top: 25px;
+}	
+
+@media screen and (max-width: 768px){
+	.parent3{
+		flex-wrap: wrap;
+
+	}
+	ul{
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	.home {
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	.row {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.data {
+		margin: 10px;
+	}
+	.parent1 {
+		flex-wrap: wrap;
+		width: 100%;
+		height: 90vh;
+		display: flex;
+	}
+	.child1 {
+		width: 200px;
+	height: 45vh;
+	}
+	.img2 {
+	margin-left: 20px;
+   }
+   .img1 {
+   	margin-left: 50px;
+   }
+   .img3 {
+   	margin-left: 20px;
+   }
+   .img4 {
+   	margin-left: 30px;
+   }
+   .img5 {
+   	margin-left: 50px;
+   }
+   .img6 {
+   	margin-left: 25px;
+   }
+   .img7 {
+   	margin-left: 25px;
+   }
+   .img8 {
+   	margin-left: 25px;
+   }
+   h2 {
+   	font-size: 15px;
+   }
+   .img9 {
+   	margin-left: 20px;
+   }
+   .img10 {
+   	margin-left: 50px;
+   }
+   .img11 {
+   	margin-left: 0px;
+   }
+   .img12 {
+   	margin-left: 0px;
+   }
+}
